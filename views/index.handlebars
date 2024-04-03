@@ -4,6 +4,14 @@
   <title>Socket Chat!</title>
 </head>
 <body>
+  <form id="editForm">
+    <input type="text" id="editBox"/>
+    <input type="submit" value="Send Message">
+  </form>
 
+  <div id="messages"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/assets/client.js"></script>
 </body>
 </html>
